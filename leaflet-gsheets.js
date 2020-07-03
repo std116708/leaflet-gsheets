@@ -10,9 +10,9 @@ function init() {
   // PASTE YOUR URLs HERE
   // these URLs come from Google Sheets 'shareable link' form
   // the first is the polygon layer and the second the points
-  var polyURL = "https://docs.google.com/spreadsheets/d/1Nj2fqwz-vf8TH-nK40yY8iRGRWqqrNh8JdOVD5MiGLk/edit?usp=sharing";
+  var polyURL = "https://docs.google.com/spreadsheets/d/1-WeUm7HTwpMRQhVMo_Xe9oGoXD2Gv0fNFxS3QaS4his/edit?usp=sharing";
    // "https://docs.google.com/spreadsheets/d/1EUFSaqi30b6oefK0YWWNDDOzwmCTTXlXkFHAc2QrUxM/edit?usp=sharing";
-  var pointsURL = "https://docs.google.com/spreadsheets/d/1bxs4w07ozGIayLJVyp_VfovHIvwDuV-sx9eB_o7-RY0/edit?usp=sharing";
+  var pointsURL = "https://docs.google.com/spreadsheets/d/1zuONIcWuB0D2naJp9DD-QuhTSEtc1VAO_6J_hOj5Aak/edit?usp=sharing";
    // "https://docs.google.com/spreadsheets/d/1kjJVPF0LyaiaDYF8z_x23UulGciGtBALQ1a1pK0coRM/edit?usp=sharing";
 
   Tabletop.init({ key: polyURL, callback: addPolygons, simpleSheet: true });
